@@ -12,7 +12,16 @@ For this, it was as simple as typing out "ssh cs15lsp23ah@ieng6.ucsd.edu" I coul
 <br />
 Here I just typed out "git clone" and `<CNTRL>` + `<V>` to paste in a previously copied URL from my web browser. Then I hit `<ENTER>` to run it
 
-**6. RUn the tests, demonstrating that they fail**
+**6. Run the tests, demonstrating that they fail**
+<br />
+<img width="636" alt="image" src="https://github.com/doduong102/How-To-Lab-4/assets/130004918/e4edccd5-c786-465b-8eb5-437d7272fb61">
+
+<br />
+`ls` to find the file needed to run
+`cd lab7` change into the correct directory
+`ls` list files to see which file I'm running
+`bash test.sh` to run it
+
 
 **7. Edit ListExamples.java**
 
