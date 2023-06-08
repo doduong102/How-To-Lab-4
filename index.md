@@ -1,0 +1,76 @@
+# (Hello one, Hello all)
+
+**4. Log into ieng6**
+
+**5. Clone your fork of the respositoyry from your Github Account**
+
+**6. RUn the tests, demonstrating that they fail**
+
+**7. Edit ListExamples.java**
+
+**8. Run RUN RUN (the code)**
+
+**9. Commit and Push (the buttons jk)**
+
+Input:
+```
+./runme.sh poem.txt 'Contains=haiku'
+```
+Expected:
+```
+Compiled successfully, now running...
+Also a haiku
+```
+Actual:
+```
+Compiled successfully, now running...
+This is a short file
+It contains text and this is
+Also a haiku
+```
+
+**Detail the failure-inducing input and context. That might mean any or all of the command you're running, a test case, command-line arguments, working directory, even the last few commands you ran. Do your best to provide as much context as you can.**
+
+My program is based off of last quarter's cse11 PA7. Specifically, StringSearchMilestone3.
+This is StringSearch.java's contents
+```
+import java.nio.file.*;
+import java.io.*;
+import java.util.Scanner;
+
+class FileHelper {
+    static String[] getLines(String path) {
+        try {
+            return Files.readAllLines(Paths.get(path)).toArray(String[]::new);
+        }
+        catch(IOException e) {
+            System.err.println("Error reading file " + path + ": " + e);
+            return new String[]{"Error reading file " + path + ": " + e};
+        }
+    }
+}
+
+interface Query {
+    boolean matches(String s);
+}
+
+interface Transform {
+    String transform(String s);
+}
+
+class ContainsQuery implements Query {
+    private String query;
+
+    public ContainsQuery(String query) {
+        this.query = query;
+    }
+
+    public boolean matches(String s) {
+        return s.contains(this.query);
+    }
+
+    public String toString() {
+        return query;
+    }
+}
+
