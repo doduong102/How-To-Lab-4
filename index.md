@@ -32,7 +32,8 @@ Here I just typed out "git clone" and `<CTRL>` + `<V>` to paste in a previously 
 <br />
 I held down `<down>` until I got to code block that needed fixing, landed here:
 <br />
-<img width="277" alt="image" src=" https://github.com/doduong102/How-To-Lab-4/assets/130004918/6e45dded-461f-4621-b288-1e78aeb23800">
+<img width="267" alt="image" src="https://github.com/doduong102/How-To-Lab-4/assets/130004918/68e72475-e598-4a06-b906-982795f56fe5">
+
 <br />
 `<down>``<down>``<down>` to get to the right line
 <br />
