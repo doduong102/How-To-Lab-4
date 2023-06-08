@@ -1,8 +1,10 @@
 # (Hello one, Hello all)
 
 **4. Log into ieng6**
+ <br />
 <img width="439" alt="image" src="https://github.com/doduong102/How-To-Lab-4/assets/130004918/f225adc9-8607-4e95-8eca-711f5bfa2116">
-For this, it was as simple as typing out "ssh" `<space>`
+ <br />
+For this, it was as simple as typing out "ssh cs15lsp23ah@ieng6.ucsd.edu" I could have added the `<shift>` and `<space>` for the @ and the space but it's not very VIM relevant atm.
 
 **5. Clone your fork of the respositoyry from your Github Account**
 
