@@ -15,17 +15,30 @@ Here I just typed out "git clone" and `<CTRL>` + `<V>` to paste in a previously 
 **6. Run the tests, demonstrating that they fail**
 <br />
 <img width="636" alt="image" src="https://github.com/doduong102/How-To-Lab-4/assets/130004918/e4edccd5-c786-465b-8eb5-437d7272fb61">
-
 <br />
 `ls` to find the file needed to run
 `cd lab7` change into the correct directory
 `ls` list files to see which file I'm running
 `bash test.sh` to run it
 
-
 **7. Edit ListExamples.java**
+`ls` is a strange habit of mine, I just like seeing the name of the file that I'm going to copy over into the next command line
+`vim ListExamples.java` to open the godforsaken file
+I held down `<down>` until I got to code block that needed fixing, landed here:
+<img width="277" alt="image" src=" https://github.com/doduong102/How-To-Lab-4/assets/130004918/6e45dded-461f-4621-b288-1e78aeb23800">
+`<down>``<down>``<down>` to get to the right line
+`<left>'`<left>'`<left>'`<left>' to change index1 to index2
+`i` to enter insert mode
+`<BACKSPACE>`
+`2`
+`<ESC>` to exit insert mode
+`:wq` to exit VIM
 
 **8. Run RUN RUN (the code)**
+`<up>``<up>``<up>``<up>` to access my command line history, then `<ENTER>` to run the newly modified code
+<img width="260" alt="image" src="https://github.com/doduong102/How-To-Lab-4/assets/130004918/a5757283-d953-4b57-8527-0eec298be818">
+Looks good
+ 
 
 **9. Commit and Push (the buttons jk)**
 
