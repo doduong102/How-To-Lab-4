@@ -6,7 +6,7 @@
  <br />
 For this, it was as simple as typing out "ssh cs15lsp23ah@ieng6.ucsd.edu" I could have added the `<shift>` and `<space>` for the @ and the space but it's not very VIM relevant atm.
 
-**5. Clone your fork of the respositoyry from your Github Account**
+**5. Clone your fork of the respository from your Github Account**
 
 **6. RUn the tests, demonstrating that they fail**
 
