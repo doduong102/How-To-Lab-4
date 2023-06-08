@@ -7,6 +7,7 @@
 For this, it was as simple as typing out "ssh cs15lsp23ah@ieng6.ucsd.edu" I could have added the `<shift>` and `<space>` for the @ and the space but it's not very VIM relevant ATM
 
 **5. Clone your fork of the respository from your Github Account**
+<br />
 <img width="430" alt="image" src="https://github.com/doduong102/How-To-Lab-4/assets/130004918/dbce9c6e-ef45-4810-a98a-f1514d66543c">
 <br />
 Here I just typed out "git clone" and `<CNTRL>` + `<V>` to paste in a previously copied URL from my web browser. Then I hit `<ENTER>` to run it
