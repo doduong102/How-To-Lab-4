@@ -1,6 +1,8 @@
 # (Hello one, Hello all)
 
 **4. Log into ieng6**
+<img width="439" alt="image" src="https://github.com/doduong102/How-To-Lab-4/assets/130004918/f225adc9-8607-4e95-8eca-711f5bfa2116">
+For this, it was as simple as typing out "ssh" `<space>`
 
 **5. Clone your fork of the respositoyry from your Github Account**
 
