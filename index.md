@@ -36,7 +36,7 @@ I held down `<down>` until I got to code block that needed fixing, landed here:
 <br />
 `<down>` `<down>` `<down>` to get to the right line
 <br />
-`<left>'`<left>'`<left>'`<left>' to change index1 to index2
+`<left>` `<left>` `<left>` `<left>' to change index1 to index2
 <br />
 `i` to enter insert mode
 <br />
@@ -50,7 +50,8 @@ I held down `<down>` until I got to code block that needed fixing, landed here:
  <br />
 
 **8. Run RUN RUN (the code)**
-`<up>``<up>``<up>``<up>` to access my command line history, then `<ENTER>` to run the newly modified code
+<br />
+`<up>` `<up>` `<up>` `<up>` to access my command line history, then `<ENTER>` to run the newly modified code
 <img width="260" alt="image" src="https://github.com/doduong102/How-To-Lab-4/assets/130004918/a5757283-d953-4b57-8527-0eec298be818">
 Looks good
  
