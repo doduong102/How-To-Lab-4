@@ -40,9 +40,9 @@ I held down `<down>` until I got to code block that needed fixing, landed here:
 <br />
 `i` to enter insert mode
 <br />
- `<BACKSPACE>`
+ `<BACKSPACE>` delete the `1` that was causing the bug
 <br />
- `2`
+ `2` to replace with `1` to fix the bug
 <br />
  `<ESC>` to exit insert mode
 <br />
@@ -55,5 +55,8 @@ I held down `<down>` until I got to code block that needed fixing, landed here:
 <img width="260" alt="image" src="https://github.com/doduong102/How-To-Lab-4/assets/130004918/a5757283-d953-4b57-8527-0eec298be818">
 Looks good
  
-
 **9. Commit and Push (the buttons jk)**
+
+<img width="800" alt="image" src="https://github.com/doduong102/How-To-Lab-4/assets/130004918/8e8469ed-2390-48f7-a810-1adc404f4014">
+<br /> 
+Darn :(
