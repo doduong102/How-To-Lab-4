@@ -17,22 +17,37 @@ Here I just typed out "git clone" and `<CTRL>` + `<V>` to paste in a previously 
 <img width="636" alt="image" src="https://github.com/doduong102/How-To-Lab-4/assets/130004918/e4edccd5-c786-465b-8eb5-437d7272fb61">
 <br />
 `ls` to find the file needed to run
+<br />
 `cd lab7` change into the correct directory
+<br />
 `ls` list files to see which file I'm running
+<br />
 `bash test.sh` to run it
 
 **7. Edit ListExamples.java**
+<br />
 `ls` is a strange habit of mine, I just like seeing the name of the file that I'm going to copy over into the next command line
+<br />
 `vim ListExamples.java` to open the godforsaken file
+<br />
 I held down `<down>` until I got to code block that needed fixing, landed here:
+<br />
 <img width="277" alt="image" src=" https://github.com/doduong102/How-To-Lab-4/assets/130004918/6e45dded-461f-4621-b288-1e78aeb23800">
+<br />
 `<down>``<down>``<down>` to get to the right line
+<br />
 `<left>'`<left>'`<left>'`<left>' to change index1 to index2
+<br />
 `i` to enter insert mode
-`<BACKSPACE>`
-`2`
-`<ESC>` to exit insert mode
-`:wq` to exit VIM
+<br />
+ `<BACKSPACE>`
+<br />
+ `2`
+<br />
+ `<ESC>` to exit insert mode
+<br />
+ `:wq` to exit VIM
+ <br />
 
 **8. Run RUN RUN (the code)**
 `<up>``<up>``<up>``<up>` to access my command line history, then `<ENTER>` to run the newly modified code
@@ -41,66 +56,3 @@ Looks good
  
 
 **9. Commit and Push (the buttons jk)**
-
-Input:
-```
-./runme.sh poem.txt 'Contains=haiku'
-```
-Expected:
-```
-Compiled successfully, now running...
-Also a haiku
-```
-Actual:
-```
-Compiled successfully, now running...
-This is a short file
-It contains text and this is
-Also a haiku
-```
-
-**Detail the failure-inducing input and context. That might mean any or all of the command you're running, a test case, command-line arguments, working directory, even the last few commands you ran. Do your best to provide as much context as you can.**
-
-My program is based off of last quarter's cse11 PA7. Specifically, StringSearchMilestone3.
-This is StringSearch.java's contents
-```
-import java.nio.file.*;
-import java.io.*;
-import java.util.Scanner;
-
-class FileHelper {
-    static String[] getLines(String path) {
-        try {
-            return Files.readAllLines(Paths.get(path)).toArray(String[]::new);
-        }
-        catch(IOException e) {
-            System.err.println("Error reading file " + path + ": " + e);
-            return new String[]{"Error reading file " + path + ": " + e};
-        }
-    }
-}
-
-interface Query {
-    boolean matches(String s);
-}
-
-interface Transform {
-    String transform(String s);
-}
-
-class ContainsQuery implements Query {
-    private String query;
-
-    public ContainsQuery(String query) {
-        this.query = query;
-    }
-
-    public boolean matches(String s) {
-        return s.contains(this.query);
-    }
-
-    public String toString() {
-        return query;
-    }
-}
-
