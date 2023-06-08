@@ -36,7 +36,7 @@ I held down `<down>` until I got to code block that needed fixing, landed here:
 <br />
 `<down>` `<down>` `<down>` to get to the right line
 <br />
-`<left>` `<left>` `<left>` `<left>' to change index1 to index2
+`<left>` `<left>` `<left>` `<left>` to change index1 to index2
 <br />
 `i` to enter insert mode
 <br />
