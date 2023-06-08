@@ -33,9 +33,8 @@ Here I just typed out "git clone" and `<CTRL>` + `<V>` to paste in a previously 
 I held down `<down>` until I got to code block that needed fixing, landed here:
 <br />
 <img width="267" alt="image" src="https://github.com/doduong102/How-To-Lab-4/assets/130004918/68e72475-e598-4a06-b906-982795f56fe5">
-
 <br />
-`<down>``<down>``<down>` to get to the right line
+`<down>` `<down>` `<down>` to get to the right line
 <br />
 `<left>'`<left>'`<left>'`<left>' to change index1 to index2
 <br />
